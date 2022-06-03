@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/delicious.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7b3e06d691.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h3 class="logo">Tasty.</h3>
+            <div class="menuBtn" onclick="toggle()">
+                <i class="fa fa-reorder"></i>
+            </div>
+            <div class="menu">
+                <div class="close" onclick="toggle()">
+                    <i class="fa fa-close"></i>
+                </div>
+                <div class="mobile">
+                    <a href="" class="active">Home</a>
+                    <a href="">About</a>
+                    <a href="">Recipes</a>
+                </div>
+            </div>
+            <nav>
+                <a href="" class="active">Home</a>
+                <a href="">About</a>
+                <a href="">Recipes</a>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <h1>Learn. Cook. Share. <br> Cooking Make Easy.</h1>
+                <p>Say good bye to long and frustrating  food blogs and recipe videos. 
+                    Access our recipe cards to prepare any dish in minutes.</p>
+                <a href="">Start here</a>   
+            </div>
+            <div class="imgBox">
+                <img src="img/chef.png" alt="">
+            </div>
+        </main>
+        <footer>
+            <div class="socials">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <span>Naveen</span>
+        </footer>
+
+        <script>
+            function toggle() {
+                const menu = document.querySelector('.menu');
+                if (menu.classList.contains('open')) {
+                    menu.classList.remove('open')
+                } else {
+                    menu.classList.add('open')   
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>
