@@ -10,6 +10,6 @@ Totally reponsive landing page built with HTML, CSS and a little bit of JS.
 - Mobile view :)
 - Toggle menu
 - Basic
-- [x] Uncompleted user storit: a little cool animation for fun.
+- [x] Uncompleted user story: a little cool animation for fun.
 
 ![Tasty_mockup](https://user-images.githubusercontent.com/106688074/171770796-da9b8996-91cc-494e-bb03-70377d7a80a1.png)
